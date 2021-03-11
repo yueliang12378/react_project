@@ -1,0 +1,49 @@
+html,body{
+  width: 100%;
+  height: 100%;
+  #root{
+    width: 100%;
+    height: 100%;
+  }
+}
+.login{
+  width: 100%;
+  height: 100%;
+  background: url('../../assets/images/bg.jpg') no-repeat;
+  //铺满
+  background-size:100%;
+  header{
+    display: flex;
+    height: 80px;
+    background-color: rgba(21,20,13,0.5);
+    //flex布局下 让文字图片对齐的简单方法
+    align-items:center;
+    img{
+      width: 40px;
+      height: 40px;
+      margin: 10px;
+    }
+    h1{
+      color: white;
+      font-size: 30px;
+      line-height: 40px;
+    }
+  }
+  section{
+    width: 400px;
+    height: 300px;
+    background-color: #fff;
+    //居中  ，，也可以用flex布局的居中
+    margin: 50px auto;
+    padding: 30px;
+    h1{
+      font-size: 25px;
+      text-align: center;
+    }
+    .login-form-button{
+      margin-top: 20px;
+      width: 100%;
+    }
+
+  }
+}
